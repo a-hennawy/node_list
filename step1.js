@@ -13,4 +13,8 @@ function cat(path) {
   console.log(`Reading ${argv[2]}...`);
 }
 
-cat(argv[2]);
+// cat(argv[2]);
+
+module.exports = {
+  cat: cat,
+};
